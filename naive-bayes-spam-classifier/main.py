@@ -1,4 +1,3 @@
-
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.model_selection import train_test_split
@@ -54,7 +53,7 @@ accuracy = accuracy_score(y_test, predictions)
 
 #My experiments
 message = [
-    "Son of a bitch, I am working on the api. wait for my sake"
+    "Congrats! you just won an Alienware Area-51."
 ]
 
 message_vector = vectorizer.transform(message)
